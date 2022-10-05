@@ -12,4 +12,15 @@ body{
   height: 70px;
   width: 70px;
   background: #f20044;
+  position: relative;
+  transform: rotate(-45deg);
+}
+
+.heart::before{
+  content: '';
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  background: #f20044;
+top: -50%;
 }
