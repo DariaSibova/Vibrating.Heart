@@ -14,6 +14,7 @@ body{
   background: #f20044;
   position: relative;
   transform: rotate(-45deg);
+  box-shadow: -10px 10px 90px #f20044 ;
 }
 
 .heart::before{
@@ -22,5 +23,16 @@ body{
   height: 70px;
   width: 70px;
   background: #f20044;
-top: -50%;
+  top: -50%;
+  border-radius: 50px;
+}
+
+.heart::after{
+  content: '';
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  background: #f20044;
+  right:-50%;
+  border-radius: 50px;
 }
